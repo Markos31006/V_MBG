@@ -1,0 +1,6 @@
+"matricula","marca","model","any","kilometres","ITV","propietari","DNI"
+"1234ABC","Toyota","Corolla",2018,85600.5,True,"Anna Puig","12345678A"
+"5678DEF","Volkswagen","Golf",2015,129450.0,False,"Joan Serra","87654321B"
+"9012GHI","Renault","Clio",2020,40300.7,True,"Laura Costa","11223344C"
+"3456JKL","Ford","Focus",2012,185320.2,False,"Pere Vila","55667788D"
+"7890MNO","Seat","Ibiza",2019,67300.0,True,"Marta Soler","99887766E"
