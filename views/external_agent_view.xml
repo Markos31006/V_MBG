@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<odoo>
+	<record id="external_agents_action" model="ir.actions.act_window">
+    	<field name="name">External Agent</field>
+    	<field name="res_model">external.agent</field>
+    	<field name="view_mode">tree,form</field>
+	</record>
+
+	<record id="external_agents_view_tree" model="ir.ui.view">
+        <field name="name">external.agent.tree</field>
+        <field name="model">external.agent</field>
+        <field name="arch" type="xml">
+            <tree string="Channel">
+                <field name="propietari"/>
+                <field name="matricula"/>
+                <field name="kilometres"/>
+                <field name="marca"/>
+                <field name="model"/>
+                <field name="any"/>
+                <field name="ITV"/>
+                <field name="DNI"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
